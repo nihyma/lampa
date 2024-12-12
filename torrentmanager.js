@@ -712,10 +712,6 @@
       return headers;
     }
     function auth$1() {
-        Lampa.Noty.show(proxy$1);
-        Lampa.Noty.show(url$1);
-        Lampa.Noty.show(path);
-        Lampa.Noty.show(getHeaders$1());
       $.ajax({
         url: "".concat(proxy$1).concat(url$1).concat(path),
         method: "POST",
